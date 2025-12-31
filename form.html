@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div id="signuppage">
+    <h1>SIGN UP</h1>
+    <img width="200" src="./assets/images/signup.png" alt="bee illustration">
+    <br>
+    <br>
+    <form action="welcome.html" method="post">
+        <div>
+            <label for="name">Enter your Username:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your Name">
+        </div>
+        <br>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+            <div>
+                <label for="city">Enter your City:</label>
+                <input type="text" name="city" placeholder="Enter your City Name">
+            </div>
+            <br>
+            <div>
+                <label for="pincode">Enter your City Pincode:</label>
+                <input type="number" name="pincode" placeholder="Enter Pincode of the City">
+            </div>
+            <div>
+                <label for="age">Enter your age:</label>
+                <input type="number" name="age" placeholder="Enter your age">
+            </div>
+            <div>
+                <label for="email">Enter your email:</label>
+                <input type="email" name="email" placeholder="Enter your email">
+            </div>
+            <br>
+            <div>
+                <button type="submit">submit</button>
+            </div>
+    </form>
+    <form action="index.html" method="get">
+            <button type="">home</button>
+    </form>
+    </div>
+</body>
+</html>

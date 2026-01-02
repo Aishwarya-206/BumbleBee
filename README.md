@@ -60,7 +60,7 @@ Bumblebee/
 
 ## Author
 
-Aishwarya  
+Aishwarya  Priyadarshini
 GitHub: https://github.com/Aishwarya-206  
 LinkedIn: https://www.linkedin.com/in/aishwarya-priyadarshini-855b73304/  
 Email: aishpri206@gmail.com
